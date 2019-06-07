@@ -1,3 +1,4 @@
+require('dotenv').config()
 module.exports = {
-  uri: 'mongodb://localhost:28018/gonode03'
+  uri: process.env.DB_CONECTION
 }
